@@ -8,6 +8,10 @@ app.get("/nani", (req, res)=>{
     res.send(`<h1>HOLA: , ${nombre}</h1>`);
 })
 
+app.get("/comida", (req, res)=>{
+    res.send("Comida");
+})
+
 
 app.listen(3000, ()=>{
     console.log("Servidor en puerto 3000");
